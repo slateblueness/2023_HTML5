@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>안녕</h1>
+    <img src=".img/캡처.PNG" alt="이미지">
+    <!-- 태그는 시작태그/끝태그로 사용한다 -->
+    <!-- 태그에 따라서 속성값을 넣을 수 있다 -->
+    <ul>
+        <li>리스트</li>
+        <li>특정 태그는 함께 써야 한다 ex)ul/ol과 li</li>
+        (table과 tr, td)
+    </ul>
+    <ol>
+        <li>리스트</li>
+        <li><a href="#">리스트 안에 링크태그 사용 가능</a></li>
+    </ol>
+
+    <h3>화면구성: div태그</h3>
+    <div style="border: 1px solid black;">
+        <h3>관련 내용을 묶어서 사용합니다</h3>
+        <p>관련 내용</p>
+    </div>
+
+    <h3>form - input</h3>
+    <p>form: input태그의 값을 서버로 전달하는 전체태그</p>
+    <p>input: 값을 입력 받는 태그</p>
+    <form action="서버로 연결해 주는 공간">
+        <input type="text" name="name" value="초기값">
+        <p>
+            input태그를 이용해서 값을 전달할 때 name과 value값을 통해서 전달
+        </p>
+        <input type="submit" value="전달(버튼 안의 글자가 됨)">
+        <input type="button" value="버튼">
+        <p>submit: 내용을 form을 통해 제출<br>button: 클릭할 수 있는 공간</p>
+    </form>
+
+    <h3>태그들간의 관계</h3>
+    <p>하나만 사용한 태그</p>
+    <p>동일한 위치에 있으면 형제태그(앞 공백이 같은 라인)</p>
+    <div>
+        <p>div의 자식 태그가 되는 p태그(자식 태그의 앞 공백이 한 칸 더 들어감)</p>
+        <p>p태그의 부모 태그가 되는 div태그</p>
+    </div>
+    <p>앞 공백 질서가 잘 지켜지지 않은 경우 fomat document 기능을 통해 정렬 가능</p>
+</body>
+</html>

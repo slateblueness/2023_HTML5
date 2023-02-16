@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{color: aqua;}
+        #text-color {color: chocolate;}
+        .text-color {color: cadetblue;}
+    </style>
+</head>
+<body>
+    <h2>CSS</h2>
+    <p style="color: blueviolet;">인라인 스타일 적용</p>
+    <p>내부 스타일 시트 작용</p>
+    <p>모든 p태그는 내부 스타일 시트 적용</p>
+    <span>아무것도 적용되지 않은 상태: 웹 브라우저의 기본 스타일로 적용</span>
+    <br>
+    <span id="text-color">아이디를 이용한 스타일 적용</span>
+    <span class="text-color">클래스를 이용한 스타일 적용</span>
+
+    <script>
+        document.getElementById("text-color").interHTML
+        ="자바스크립트를 배워 봅시다!";
+    </script>
+</body>
+<p>
+    body 밖에서는 사용할 수 없지만 웹 브라우저에서 임의로 body 안으로 옮겨 출력해 준다 <br>
+    끝 태그가 없을 때에도 임의로 생성해 준다
+</p>
+</html>
